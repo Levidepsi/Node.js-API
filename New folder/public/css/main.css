@@ -12,16 +12,25 @@ a{
 
 .logo{
     font-size: 20px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+}
+
+p{
+   font-size: 20px;
+}
+
+.logo:hover{
+    font-size: 21px;
 }
 
 .navbar{
     padding: 20px;
      display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 700px;
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .nav    {
@@ -30,6 +39,27 @@ a{
     font-size: 20px;
 }
 
+
 .nav li    {
     padding: 10px;
+}
+
+.nav li:hover{
+    font-size: 21px;
+}
+
+/* main content */
+.main-body{
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 500px;
+margin-bottom: 20px ;
 }
