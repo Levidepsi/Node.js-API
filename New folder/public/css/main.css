@@ -10,18 +10,10 @@ a{
     color: black;
 }
 
-p{
-    margin: 10px;
-    padding: 10px;
-}
 
 .logo{
     font-size: 20px;
     /* margin-left: 30px; */
-}
-
-p{
-   font-size: 20px;
 }
 
 .logo:hover{
@@ -53,12 +45,6 @@ p{
     font-size: 21px;
 }
 
-/* main content */
-.main-body{
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-}
 
 .title{
     margin-top: 40px;
@@ -73,4 +59,33 @@ padding: 10px;
 
 hr{
     color: grey;
+    /* margin-bottom: 20px;
+    padding: 20px; */
+}
+
+.line{
+    height: 50px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.icons{
+   max-height: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.footer{
+    align-items: center;
+    justify-items: center;
+}
+
+.main-page{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    background: url('./public/img/webdevelopment.jpeg') center center/cover no-repeat;
 }

@@ -13,7 +13,7 @@ app.use('/img',express.static(__dirname + 'public/img'))
 app.set('views','./views');
 app.set('view engine', 'ejs')
 
-// render
+// render Web Development
 app.get('', (req, res) =>{
     res.render('index')
 })
