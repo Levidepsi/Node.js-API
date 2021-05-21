@@ -49,6 +49,7 @@ a{
 .title{
     margin-top: 40px;
     margin-bottom: 20px;
+    color: white        ;
 }
 
 .img{
@@ -70,22 +71,37 @@ hr{
 }
 
 .icons{
+    padding: 20px;
+    font-size: 20px;
    max-height: 100%;
-    background-color: grey;
     display: flex;
     align-items: center;
     justify-items: center;
     text-align: center;
 }
 
+.icon{
+    padding: 10px;
+}
+
+.icon:hover{
+    font-size: 22px;
+}
+
 .footer{
     align-items: center;
     justify-items: center;
+    text-align: center;
+    height: 50px;
+
 }
 
 .main-page{
     align-items: center;
     text-align: center;
     justify-items: center;
-    background: url('./public/img/webdevelopment.jpeg') center center/cover no-repeat;
+    padding: 20px;
+    background: url('../img/webdevelopment.jpeg') center center/cover no-repeat;
+    height: 50vh;
+    opacity: 0.9;
 }
